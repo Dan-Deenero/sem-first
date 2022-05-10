@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Nero fash</title>
+
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+ 
+  <!-- ======= Header ======= -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-lg-0 justify-content-between align-items-center" href="index.html">
+        <i class="fa-solid fa-hat-cowboy-side"></i>
+        <span class="text-uppercase ms-2">First Fashion</span> 
+      </a>
+
+      <div class=" order-lg-2">
+        <button type="button" class="btn border-0 position-relative">
+          <i class="fa fa-search"></i>
+        </button>
+        
+      </div>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-lg-1" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto text-center ">
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark " aria-current="page" href="#catig">Categories</a>
+          </li>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="#brands">Brand</a>
+          </li>
+          <li class="nav-item px-2 py-2 dropdown">
+            <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                product
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./shoes.html">Shoes</a></li>
+                <li><a class="dropdown-item" href="./bags.html">Bags</a></li>
+                <li><a class="dropdown-item" href="./joggers.html">Joggers</a></li>
+              </ul>
+            </li>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header section ends -->
+
+
+
+  <!-- ======= carousel ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background: url(assets/img/brands/ist\ bg.jpeg)no-repeat ">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown" style="color: white;">Welcome to <span>First Fashion</span></h2>
+                <p class="animate__animated animate__fadeInUp">check out for your best shoes</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(./assets/img/2nd\ bg.jpg)  no-repeat;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated fanimate__adeInDown" style="color: white;">We Provide you <span>quality product</span></h2>
+                <p class="animate__animated animate__fadeInUp">check out for quality bags</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(./assets/img/3rd\ bg.jpg) no-repeat cover;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown" style="color: white;">Buy <span>Now</span></h2>
+                <p class="animate__animated animate__fadeInUp">Enjoy wearing quality products</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- Carousel -->
+  
+
+  <!-- ======= Featured Section ======= -->
+  <section id=".category" class="py-5">
+    <div class="container" id="catig">
+      <div class="title text-center">
+          <h2 class=" d-inline-block position-relative">Categories</h2>
+        </div>
+
+        <div class="row">
+          <div class="d-flex flex-wrap justify-content-center mt-5">
+            <button type="button" class="btn  m-2 text-dark active-filter-btn">Men</button>
+            <button type="button" class="btn  m-2 text-dark">women</button>
+            <button type="button" class="btn m-2 text-dark">Kids</button>
+          </div>
+
+          <div class="collection-list mt-4 row gx-0 gy-3">
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+              <div class="collection-img position-relative">
+                <img src="./assets/img/shoes/shoes 13.jpg" class="w-100 h-10 p-2">
+            
+              </div>
+              <div class="text-center">
+                <div class="rating">
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">New balance</p>
+                <span class="fw-bold">$ 300.10</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="collection-img position-relative">
+                <img src="./assets/img/shoes/shoes 3.jpg" class="w-100 h-10 p-2">
+            
+              </div>
+              <div class="text-center">
+                <div class="rating">
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Nike shoe</p>
+                <span class="fw-bold">$ 300.10</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="collection-img position-relative">
+                <img src="./assets/img/shoes/shoes 5.jpg" class="w-100 h-10 p-2">
+              
+              </div>
+              <div class="text-center">
+                <div class="rating">
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Adidas shoe</p>
+                <span class="fw-bold">$ 300.10</span>
+              </div>
+            </div>
+
+            
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="collection-img position-relative">
+                <img src="./assets/img/shoes/shoes 8.jpg" class="w-100 h-10 p-2">
+               
+              </div>
+              <div class="text-center">
+                <div class="rating">
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                  <span class=""><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Airforce Sneakers</p>
+                <span class="fw-bold">$ 300.10</span>
+              </div>
+            </div>
+
+
+
+            
+      
+
+
+    <!-- ======= Brands Section ======= -->
+    <section id="brands" class="brands">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Brands</h2>
+          <p>Here are some brands associated with us, you can always pick your choice of Product with any brand.</p>
+        </div>
+      
+          
+
+        <div class="brands-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/brands/gucci 2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/brands/lv 1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/brands/main dior.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/brands/versace 1.png.crdownload" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/brands/nikey.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/brands/adidas_PNG18.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- brands Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Product</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Shoes</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Bags</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Joggers</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">t-shirt customizing</a></li>
+              <li><i class="fas fa-chevron-right"></i> <a href="#">Online shopping</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              No 1 solotan street<br>
+              ASero, Abeokuta<br>
+              Nigeria <br><br>
+              <strong>Phone:</strong> +234 902 327 4273<br>
+              <strong>Email:</strong> eniolagboyin@gmail.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Eterna</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: rgb(13, 152,199);"></i></a>
+              <a href="#" class="facebook"><i class="fa-brands fa-facebook" style="color: blue; "></i></a>
+              <a href="#" class="instagram"><i class="fa-brands fa-instagram" style="color: purple;"></i></a>
+              <a href="#" class="google-plus"><i class="fa-brands fa-whatsapp" style="color: rgb(5, 136, 60);"></i></a>
+              <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Nero</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+ <script src="./bs/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
