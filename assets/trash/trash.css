@@ -182,3 +182,17 @@ center{
       transform: scale(1.05);
     }
   } */
+
+
+  /* card hover */
+  /* .card{
+    transition: box-shadow .25s ease-in;
+  }
+
+  .card:hover{
+   box-shadow: 
+   rgba(225, 225, 225, 0.5) 5px 3px,
+   rgba(225, 225, 225, 0.4) 10px 6px,
+   rgba(225, 225, 225, 0.3) 15px 9px
+   ;
+  } */
