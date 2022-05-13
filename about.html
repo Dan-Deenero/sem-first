@@ -23,29 +23,37 @@
 
    <!-- ======= Header ======= -->
 
-   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand order-lg-0 justify-content-between align-items-center" href="index.html">
         <i class="fa-solid fa-hat-cowboy-side"></i>
-        First fashion 
-        <!-- <img src="./assets/img/ma logo.png" alt="" style="width: 100px; padding: ; "> -->
+        <span class="text-uppercase ms-2">First Fashion</span> 
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+      <div class=" order-lg-2">
+        <button type="button" class="btn border-0 position-relative">
+          <i class="fa fa-search"></i>
+        </button>
+        
+      </div>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav me-auto ms-auto ">
-          <li class="nav-item ">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+
+      <div class="collapse navbar-collapse order-lg-1" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto text-center ">
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark " aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Categories</a>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark " aria-current="page" href="#catig">Categories</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Brand</a>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="#brands">Brand</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item px-2 py-2 dropdown">
+            <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 product
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -54,11 +62,11 @@
                 <li><a class="dropdown-item" href="./joggers.html">Joggers</a></li>
               </ul>
             </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="about.html">About</a>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark active" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact us</a>
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="contact.html">Contact us</a>
           </li>
         </ul>
       </div>
@@ -219,72 +227,65 @@
 
 
 
-          <!-- ======= Footer ======= -->
+     <!-- ======= Footer ======= -->
           <footer id="footer">
-
-
-
-
-            <div class="footer-top">
-              <div class="container">
-                <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </div>
         
-                  <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Product</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">contact us</a></li>
-                    </ul>
-                  </div>
+                <div class="footer-col">
+                  <h4>Our Services</h4>
+                  <ul>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Joggers</a></li>
+                    <li><a href="#">t-shirt customizing</a></li>
+                    <li><a href="#">Online shopping</a></li>
+                  </ul>
+                </div>
         
-                  <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Shoes</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Bags</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Joggers</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">t-shirt customizing</a></li>
-                      <li><i class="fas fa-chevron-right"></i> <a href="#">Online shopping</a></li>
-                    </ul>
-                  </div>
-        
-                  <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
-                    <p>
-                      No 1 solotan street<br>
-                      ASero, Abeokuta<br>
-                      Nigeria <br><br>
-                      <strong>Phone:</strong> +234 902 327 4273<br>
-                      <strong>Email:</strong> eniolagboyin@gmail.com<br>
-                    </p>
-        
-                  </div>
-        
-                  <div class="col-lg-3 col-md-6 footer-info">
-                    <h3>About Eterna</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                    <div class="social-links mt-3">
-                      <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: rgb(13, 152,199);"></i></a>
-                      <a href="#" class="facebook"><i class="fa-brands fa-facebook" style="color: blue; "></i></a>
-                      <a href="#" class="instagram"><i class="fa-brands fa-instagram" style="color: purple;"></i></a>
-                      <a href="#" class="google-plus"><i class="fa-brands fa-whatsapp" style="color: rgb(5, 136, 60);"></i></a>
-                      <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                  </div>
+                <div class="footer-col">
+                  <h4>Contact Us</h4>
+                  <p>
+                    No 1 solotan street<br>
+                    ASero, Abeokuta<br>
+                    Nigeria <br><br>
+                    <strong>Phone:</strong> +234 902 327 4273<br>
+                    <strong>Email:</strong> eniolagboyin@gmail.com<br>
+                  </p>
         
                 </div>
+        
+                <div class="footer-col">
+                  <h4>Follow us</h4>
+                  <div class="social-links ">
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: rgb(13, 152,199);"></i></a>
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook icon" style="color: blue; "></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram icon" style="color: purple;"></i></a>
+                    <a href="#" class="google-plus"><i class="fa-brands fa-whatsapp icon" style="color: rgb(5, 136, 60);"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+        
               </div>
             </div>
         
-            <div class="container">
-              <div class="copyright">
-                &copy; Copyright <strong><span>Nero</span></strong>. All Rights Reserved
-              </div>
+          <div class="splat">
+            <div class="copyright">
+              &copy; Copyright <strong><span>Nero</span></strong>. All Rights Reserved
             </div>
-          </footer>
+          </div>
+        </footer>
+        
           <!-- End Footer -->
         
         

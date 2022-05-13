@@ -42,7 +42,7 @@
       <div class="collapse navbar-collapse order-lg-1" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center ">
           <li class="nav-item px-2 py-2">
-            <a class="nav-link text-uppercase text-dark " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-uppercase text-dark active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item px-2 py-2">
             <a class="nav-link text-uppercase text-dark " aria-current="page" href="#catig">Categories</a>
@@ -75,60 +75,81 @@
 
 
   <!-- ======= carousel ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url(assets/img/brands/ist\ bg.jpeg)no-repeat ">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown" style="color: white;">Welcome to <span>First Fashion</span></h2>
-                <p class="animate__animated animate__fadeInUp">check out for your best shoes</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
-              </div>
+  <section class="home" id="home">
+    <div class="slide-container active" style="background-color: #67270E;">
+      <!-- <img src="./assets/img/slide/blue_textile_background.jpg" alt="" class="bgimg"> -->
+        <div class="slide">
+            <div class="content">
+                <span>Nike Sport Shoes</span>
+                <h3>Nike Metcon Shoes</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit 
+                    Sunt nam adipisci ipsa officiis Amet pariatur eaque soluta 
+                    sit iure neque voluptate.
+                </p>
+                <a href="#" class="btn">View more</a>
             </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url(./assets/img/2nd\ bg.jpg)  no-repeat;">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown" style="color: white;">We Provide you <span>quality product</span></h2>
-                <p class="animate__animated animate__fadeInUp">check out for quality bags</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
-              </div>
+            <div class="image">
+                <img src="./assets/img/slide/1.png" class="shoe">
             </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(./assets/img/3rd\ bg.jpg) no-repeat cover;">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown" style="color: white;">Buy <span>Now</span></h2>
-                <p class="animate__animated animate__fadeInUp">Enjoy wearing quality products</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Shop now</a>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
     </div>
-  </section><!-- Carousel -->
+    <div class="slide-container " style="background-color: #21670E;">
+        <div class="slide">
+            <div class="content">
+                <span>Nike Sport Shoes</span>
+                <h3>Nike Metcon Shoes</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit 
+                    Sunt nam adipisci ipsa officiis Amet pariatur eaque soluta 
+                    sit iure neque voluptate.
+                </p>
+                <a href="#" class="botn">View more</a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/slide/apostolos-vamvouras-YQbJLyY0hFU-unsplash-removebg-preview.png" class="shoe" >
+            </div>
+        </div>
+    </div>
+    <div class="slide-container" style="background-color: #540E67;">
+        <div class="slide">
+            <div class="content">
+                <span>Nike Sport Shoes</span>
+                <h3>Nike Metcon Shoes</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit 
+                    Sunt nam adipisci ipsa officiis Amet pariatur eaque soluta 
+                    sit iure neque voluptate.
+                </p>
+                <a href="#" class="botn">View more</a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/slide/3.png" class="shoe">
+            </div>
+        </div>
+    </div>
+    <div class="slide-container" style="background-color: #0E4E68;">
+        <div class="slide">
+            <div class="content">
+                <span>Nike Sport Shoes</span>
+                <h3>Nike Metcon Shoes</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit 
+                    Sunt nam adipisci ipsa officiis Amet pariatur eaque soluta 
+                    sit iure neque voluptate.
+                </p>
+                <a href="#" class="botn">View more</a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/slide/4.png" class="shoe">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+    <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+</section>
+  <!-- Carousel -->
   
 
   <!-- ======= Featured Section ======= -->
@@ -226,7 +247,10 @@
 
 
     <!-- ======= Brands Section ======= -->
-    <section id="brands" class="brands">
+          
+
+        <div class="brands-slider swiper">
+          <section id="brands" class="brands">
       <div class="container">
 
         <div class="section-title">
@@ -238,14 +262,17 @@
 
         <div class="brands-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/brands/gucci 2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/brands/lv 1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/brands/main dior.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/brands/versace 1.png.crdownload" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/brands/nikey.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/brands/adidas_PNG18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><a href="https://www.gucci.com/"><img src="assets/img/brands/gucci 2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.louisvuitton.com/"><img src="assets/img/brands/lv 1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.dior.com/"><img src="assets/img/brands/main dior.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.versace.com/"><img src="assets/img/brands/versace 1.png.crdownload" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.nike.com/"><img src="assets/img/brands/nikey.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.adidas.com/us">><img src="assets/img/brands/adidas_PNG18.png" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
         </div>
 
       </div>
@@ -255,70 +282,63 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
 
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Joggers</a></li>
+            <li><a href="#">t-shirt customizing</a></li>
+            <li><a href="#">Online shopping</a></li>
+          </ul>
+        </div>
 
-
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Product</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">contact us</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Shoes</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Bags</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Joggers</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">t-shirt customizing</a></li>
-              <li><i class="fas fa-chevron-right"></i> <a href="#">Online shopping</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              No 1 solotan street<br>
-              ASero, Abeokuta<br>
-              Nigeria <br><br>
-              <strong>Phone:</strong> +234 902 327 4273<br>
-              <strong>Email:</strong> eniolagboyin@gmail.com<br>
-            </p>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Eterna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: rgb(13, 152,199);"></i></a>
-              <a href="#" class="facebook"><i class="fa-brands fa-facebook" style="color: blue; "></i></a>
-              <a href="#" class="instagram"><i class="fa-brands fa-instagram" style="color: purple;"></i></a>
-              <a href="#" class="google-plus"><i class="fa-brands fa-whatsapp" style="color: rgb(5, 136, 60);"></i></a>
-              <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p>
+            No 1 solotan street<br>
+            ASero, Abeokuta<br>
+            Nigeria <br><br>
+            <strong>Phone:</strong> +234 902 327 4273<br>
+            <strong>Email:</strong> eniolagboyin@gmail.com<br>
+          </p>
 
         </div>
+
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <div class="social-links ">
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter" style="color: rgb(13, 152,199);"></i></a>
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook icon" style="color: blue; "></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram icon" style="color: purple;"></i></a>
+            <a href="#" class="google-plus"><i class="fa-brands fa-whatsapp icon" style="color: rgb(5, 136, 60);"></i></a>
+            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Nero</span></strong>. All Rights Reserved
-      </div>
+  <div class="splat">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Nero</span></strong>. All Rights Reserved
     </div>
-  </footer>
+  </div>
+</footer>
+
   <!-- End Footer -->
 
 
